@@ -1,74 +1,120 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+🏥 Clínica Vida Plena
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+Projeto desenvolvido como parte do desafio "Criando um Site Completo com HTML" da trilha HTML I - Conceitos Básicos da DIO (Digital Innovation One).
 
-Além de outros recursos falados nas aulas!
+📖 Sobre o Projeto
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+O objetivo deste desafio foi construir um site institucional para uma clínica médica utilizando os conceitos fundamentais de HTML apresentados no módulo.
 
-Abaixo como cada página deve ser criada e estruturada.
+Para este projeto foi criada a Clínica Vida Plena, uma clínica fictícia voltada ao atendimento humanizado e ao cuidado integral da saúde.
 
-### Estrutura das páginas
+O site foi estruturado em quatro páginas:
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+Página Principal
+Sobre a Clínica
+Horário de Atendimento
+Contato
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+Todas as páginas seguem o mesmo padrão visual, contendo:
+Menu lateral de navegação
+Cabeçalho com imagem temática
+Área de conteúdo
+Rodapé com informações de contato
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+🚀 Tecnologias Utilizadas
+HTML5
+CSS3
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+📄 Estrutura do Projeto
+Plain Text
+📁 trilha-html-modulo-2
+│
+├── index.html
+├── sobre.html
+├── horario.html
+├── contato.html
+├── base.css
+└── README.md
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+✅ Conceitos Aplicados
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+Durante o desenvolvimento foram utilizados os principais recursos abordados no módulo:
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+Estruturação de Conteúdo
+Títulos (h1, h2, h3)
+Parágrafos (p)
+Divisões (div)
+Links (a)
+Listas ordenadas (ol)
+Listas não ordenadas (ul)
+Itens de lista (li)
+Formatação de Texto
+Negrito (strong)
+Itálico (i)
+Linhas horizontais (hr)
+Mídias
+Imagens (img)
+Iframe com Google Maps
+Tabelas
+Tabela de horários de atendimento
+Cabeçalhos de tabela (th)
+Linhas (tr)
+Células (td)
+Formulários
+Campo de texto (text)
+Campo de e-mail (email)
+Área de mensagem (textarea)
+Checkbox
+Lista suspensa (select)
+Botões de envio e limpeza
+🏠 Página Principal
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+A página inicial apresenta:
 
+Apresentação da clínica
+Principais diferenciais
+Especialidades oferecidas
+Navegação para as demais páginas
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+ℹ️ Sobre a Clínica
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+A página institucional contém:
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+História da clínica
+Missão
+Visão
+Valores
+Informações sobre a equipe médica
 
-Bora pra cima!
+📅 Horário de Atendimento
+
+Nesta página são apresentados:
+
+Serviços oferecidos
+Horários de funcionamento
+Tabela de atendimento por especialidade
+📞 Contato
+
+A página de contato possui:
+
+Telefones da clínica
+Endereço
+Localização via Google Maps
+Formulário de contato completo
+Seleção de especialidades de interesse
+🎯 Objetivo de Aprendizagem
+
+Este projeto permitiu praticar a criação de páginas web utilizando HTML e CSS, reforçando conhecimentos sobre:
+
+Estrutura de documentos HTML
+Organização de conteúdo
+Navegação entre páginas
+Criação de formulários
+Utilização de tabelas
+Incorporação de mídias
+Estilização básica com CSS
+👩‍💻 Autora
+
+Gabriela Vitória Berto da Silva
+
+Projeto desenvolvido para fins educacionais durante a trilha de formação em HTML da DIO.
