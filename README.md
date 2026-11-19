@@ -25,16 +25,16 @@ Rodapé com informações de contato
 HTML5
 CSS3
 
-📄 Estrutura do Projeto
-Plain Text
-📁 trilha-html-modulo-2
-│
+## Estrutura do Projeto
+
+```text
+📁 Projeto
 ├── index.html
 ├── sobre.html
 ├── horario.html
 ├── contato.html
-├── base.css
-└── README.md
+└── base.css
+```
 
 ✅ Conceitos Aplicados
 
@@ -113,8 +113,7 @@ Criação de formulários
 Utilização de tabelas
 Incorporação de mídias
 Estilização básica com CSS
-👩‍💻 Autora
 
-Gabriela Vitória Berto da Silva
+👩‍💻 Autora: Gabriela Vitória Berto da Silva
 
 Projeto desenvolvido para fins educacionais durante a trilha de formação em HTML da DIO.
